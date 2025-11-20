@@ -42,6 +42,23 @@ public class WordWrap
             return "this";
         if (text=="word")
             return "wo\nrd";
+        
+        int count= text.Length;
+        string nuevoTexto = "";
+        
+        for (int i = 0; i < count; i= i+ col)
+        {
+            if (count >= i + col)
+            {
+                nuevoTexto += text.Substring(i, col) +"\n" ;
+            }
+            else
+            {
+                nuevoTexto += text.Substring(i) ;
+            }
+        }
+        return nuevoTexto;
+        
         return "";
     }
 }
