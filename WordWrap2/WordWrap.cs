@@ -13,6 +13,6 @@ public class WordWrap
     }
     private static string Wrap(string text, int col)
     {
-        throw new Exception();
+        return "";
     }
 }

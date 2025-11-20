@@ -97,3 +97,4 @@ C:\Users\mayerly.salas\RiderProjects\WordWrap2\WordWrap2\obj\Debug\net9.0\refint
 C:\Users\mayerly.salas\RiderProjects\WordWrap2\WordWrap2\obj\Debug\net9.0\WordWrap2.pdb
 C:\Users\mayerly.salas\RiderProjects\WordWrap2\WordWrap2\obj\Debug\net9.0\WordWrap2.genruntimeconfig.cache
 C:\Users\mayerly.salas\RiderProjects\WordWrap2\WordWrap2\obj\Debug\net9.0\ref\WordWrap2.dll
+C:\Users\mayerly.salas\RiderProjects\WordWrap2\WordWrap2\obj\Debug\net9.0\WordWrap2.sourcelink.json
