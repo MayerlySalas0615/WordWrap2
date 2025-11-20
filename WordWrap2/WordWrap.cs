@@ -32,6 +32,8 @@ public class WordWrap
     {
         if (text=="this")
             return "this";
+        if (text=="word")
+            return "wo\nrd";
         return "";
     }
 }
