@@ -53,20 +53,23 @@ public class WordWrap
         
         int count= text.Length;
         string nuevoTexto = "";
+        int cantidad = 0;
         
         for (int i = 0; i < count; i= i+ col)
         {
-            if (count >= i + col)
+            if (count > i + col)
             {
-                nuevoTexto += text.Substring(i, col) +"\n" ;
+                int cantidadEspacios= text.Substring(i, col).Split(" ").Length-1;
+                nuevoTexto += text.Substring(i, col+ (cantidadEspacios*2)) +"\n" ;
+                cantidad += cantidadEspacios*2;
             }
             else
             {
-                nuevoTexto += text.Substring(i) ;
+                nuevoTexto += text.Substring(i+ cantidad) ;
             }
         }
+
+        nuevoTexto = nuevoTexto.Replace(" ", "\n");
         return nuevoTexto;
-        
-        return "";
     }
 }

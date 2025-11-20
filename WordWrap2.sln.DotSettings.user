@@ -1,10 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d45b1df_002Dd273_002D4bf2_002Db4f5_002Db1480000a15f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WordWrap" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d45b1df_002Dd273_002D4bf2_002Db4f5_002Db1480000a15f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WordWrap" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::931ED45C-8D70-464B-954E-B3AA8D07902F::net9.0::WordWrap2.WordWrap&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=98760427_002D1efe_002D425d_002Db3ef_002D4557aeadfbab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WordWrap #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=98760427_002D1efe_002D425d_002Db3ef_002D4557aeadfbab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WordWrap #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::931ED45C-8D70-464B-954E-B3AA8D07902F::net9.0::WordWrap2.WordWrap&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
