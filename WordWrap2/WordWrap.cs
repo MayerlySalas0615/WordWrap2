@@ -46,11 +46,6 @@ public class WordWrap
     
     private static string Wrap(string text, int col)
     {
-        if (text=="this")
-            return "this";
-        if (text=="word")
-            return "wo\nrd";
-        
         int count= text.Length;
         string nuevoTexto = "";
         int cantidad = 0;
