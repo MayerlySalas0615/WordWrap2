@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordWrap2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83386747ed3985296ef71a7505d0f156df3eba61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bbe93a470ee5301676b2fc770712661de78922c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordWrap2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordWrap2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
