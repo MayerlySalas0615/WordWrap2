@@ -11,6 +11,15 @@ public class WordWrap
 
         result.Should().Be("");
     }
+    
+    [Fact]
+    public void b()
+    {
+        var result = Wrap("this", 10);
+
+        result.Should().Be("this");
+    }  
+    
     private static string Wrap(string text, int col)
     {
         return "";
