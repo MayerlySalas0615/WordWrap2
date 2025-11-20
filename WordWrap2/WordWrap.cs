@@ -28,6 +28,14 @@ public class WordWrap
         result.Should().Be("wo\nrd");
     } 
     
+    [Fact]
+    public void d()
+    {
+        var result = Wrap("abcdefghij", 3);
+
+        result.Should().Be("abc\ndef\nghi\nj");
+    }
+    
     private static string Wrap(string text, int col)
     {
         if (text=="this")
