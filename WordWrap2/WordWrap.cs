@@ -20,6 +20,14 @@ public class WordWrap
         result.Should().Be("this");
     }  
     
+    [Fact]
+    public void c()
+    {
+        var result = Wrap("word", 2);
+
+        result.Should().Be("wo\nrd");
+    } 
+    
     private static string Wrap(string text, int col)
     {
         if (text=="this")
