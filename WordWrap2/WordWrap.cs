@@ -52,27 +52,39 @@ public class WordWrap
         result.Should().Be("word\nword");
     }    
     
+    public static string resultWrap { get; set; }
     private static string Wrap(string text, int col)
     {
         int count= text.Length;
         string nuevoTexto = "";
-        int cantidad = 0;
-        
         for (int i = 0; i < count; i= i+ col)
         {
             if (count > i + col)
             {
                 int cantidadEspacios= text.Substring(i, col).Split(" ").Length-1;
-                nuevoTexto += text.Substring(i, col+ (cantidadEspacios*2)) +"\n" ;
-                cantidad += cantidadEspacios*2;
+                for (int j = 0; j < cantidadEspacios; j++)
+                {
+                    var textSplit = text.Substring(i, col).Split(" ")[j];
+                    resultWrap += Wrap(textSplit, col) + "\n";
+                    i += resultWrap.Length;
+                }
+                if (count > i + col)
+                {
+                    nuevoTexto += resultWrap + text.Substring(i, col) +"\n" ;      
+                }
+                else
+                {
+                    nuevoTexto += resultWrap + text.Substring(i) ;
+                    resultWrap = "";
+                }
             }
             else
             {
-                nuevoTexto += text.Substring(i+ cantidad) ;
+                nuevoTexto += text.Substring(i) ;
+                resultWrap = "";
             }
         }
-
-        nuevoTexto = nuevoTexto.Replace(" ", "\n");
+        nuevoTexto = nuevoTexto.Replace(" ", "");
         return nuevoTexto;
     }
 }
